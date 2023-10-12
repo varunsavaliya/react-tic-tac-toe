@@ -3,6 +3,8 @@
 
 In this project, we'll create a simple Tic Tac Toe game using React, a popular JavaScript library for building user interfaces. Tic Tac Toe is a classic two-player game where players take turns marking a square on a 3x3 grid until one player achieves three markers in a row, column, or diagonal.
 
+Live Demo : https://react-tic-tac-toe-pied.vercel.app/
+
 
 ## Run Locally
 
