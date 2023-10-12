@@ -20,3 +20,18 @@
     color: white;
     font-size: 30px;
 }
+
+.winner{
+    color: white;
+}
+
+.reset{
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    color: white;
+    background: transparent;
+    border: 1px solid;
+    border-radius: 26px;
+    margin: 22px 0;
+}

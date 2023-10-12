@@ -36,7 +36,9 @@ function Grid({ numberOfCards }) {
             <button className="reset" onClick={resetGame}>Reset Game</button>
           </>
         )}
-        <span className="turn-shower">Current turn: {turn ? "O" : "X"}</span>
+        {!winner && (
+         <span className="turn-shower">Current turn: {turn ? "O" : "X"}</span>
+        )}
         <div className="grid">
           {board.map((el, idx) => (
             <Card gameEnd={winner ? true : false} key={idx} onPlay={play} player={el} index={idx} />
